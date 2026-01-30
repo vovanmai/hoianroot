@@ -153,9 +153,8 @@
                                     <div class="form-group col-md-6 mb-5">
                                         <select name="time" class="form-control form-select" id="time">
                                             <option value="" disabled selected>Time (*)</option>
-                                            <option value="09:00">09:00</option>
-                                            <option value="12:00">12:00</option>
-                                            <option value="15:00">15:00</option>
+                                            <option value="10:00">10:00</option>
+                                            <option value="14:00">14:00</option>
                                         </select>
                                         <div class="help-block with-errors"></div>
                                     </div>
