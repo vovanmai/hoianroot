@@ -47,13 +47,15 @@ Route::post('reservations', function () {
         'note' => 'nullable|string|max:255',
     ]);
 
-    $to = config('app.admin_emails', []);
+    // $to = config('app.admin_emails', []);
 
-    if ($to) {
-        Mail::to($to)
-            ->cc(['vovanmai.dt3@gmail.com'])
-            ->send(new SendMakeReservationMail(request()->all()));
-    }
+    // if ($to) {
+    //     Mail::to($to)
+    //         ->cc(['vovanmai.dt3@gmail.com'])
+    //         ->send(new SendMakeReservationMail(request()->all()));
+    // }
+
+    (new \App\Service\User\Telegram\SendReservationToTelegramService(request()->all()))->handle();
 
     return response()->json([
         'success' => true,
