@@ -97,7 +97,7 @@
                                     <!-- Contact Item Content Start -->
                                     <div class="contact-item-content">
                                         <h3>Address</h3>
-                                        <p>171/35 Cua Dai st, Hoi An Dong, Da Nang</p>
+                                        <p>An Mỹ RestStop</p>
                                     </div>
                                     <!-- Contact Item Content End -->
                                 </div>

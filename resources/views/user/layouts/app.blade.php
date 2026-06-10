@@ -210,7 +210,7 @@
                     <div class="topbar-contact-info">
                         <ul>
                             <li><a href="mailto:info@domainname.com"><img src="{{ asset('user/images/icon-mail.svg') }}" alt="">chibang1994@gmail.com</a></li>
-                            <li><img src="{{ asset('user/images/icon-location.svg') }}" alt="Location">171/35 Cua Dai st, Hoi An Dong, Da Nang</li>
+                            <li><img src="{{ asset('user/images/icon-location.svg') }}" alt="Location">An Mỹ RestStop</li>
                         </ul>
                     </div>
                     <!-- Topbar Contact Information End -->
@@ -302,7 +302,7 @@
                                         <div class="header-sidebar-info">
                                             <h2><a href="tel:+84 344 778 879">+84 344 778 879</a></h2>
                                             <ul>
-                                                <li>171/35 Cua Dai st, Hoi An Dong, Da Nang</li>
+                                                <li>An Mỹ RestStop</li>
                                                 <li><a href="mailto:chibang1994@gmail.com">chibang1994@gmail.com</a></li>
                                             </ul>
                                         </div>
@@ -377,7 +377,7 @@
                             </div>
                             <div class="footer-contact-detail">
                                 <h3>address</h3>
-                                <p>171/35 Cua Dai st, Hoi An Dong, Da Nang</p>
+                                <p>An Mỹ RestStop</p>
                             </div>
                             <div class="footer-contact-button">
                                 <a href="{{ route('contact') }}" class="btn-default btn-highlighted">get direction</a>
